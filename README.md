@@ -96,9 +96,9 @@
 ---Forms
 <form> </form> untuk membuat sebuah form HTML untuk input pengguna
 
-`<input>` untuk membuat sebuah kontrol input
+<input> untuk membuat sebuah kontrol input
 
-<textarea> untuk membuat sebuah kontrol input multibaris (text area)
+'<textarea>' untuk membuat sebuah kontrol input multibaris (text area)
 
 <button> untuk membuat sebuah tombol yang dapat diklik
 
