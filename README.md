@@ -61,3 +61,27 @@
 
 <q> list </q> untuk membuat kutipan pendek
 
+<rp> untuk membuat apa yang harus ditampilkan di browser yang tidak mendukung penjelasan ruby
+
+<rt> untuk membuat sebuah anotasi / pengucapan karakter ! untuk tipografi asia timur
+
+<ruby> untuk membuat sebuah anotasi ruby ! untuk tipografi asia timur
+
+<s>	untuk membuat teks yang tidak lagi benar
+
+<samp> untuk membuat contoh keluaran dari program komputer
+
+<small> untuk membuat teks kecil
+
+<strike> untuk membuat teks yang di coret tengah
+
+<strong> untuk membuat teks penting
+
+<sub>	Tag untuk membuat teks subskrip !seperti dalam penulisan zat kimia
+
+<sup>	Tag untuk membuat teks superscripted ! seperti penulisan dalam akar kuadrat 
+
+<time>	Tag untuk membuat tanggal / waktu
+
+<tt>	Tag untuk membuat teks teletype !tidak support di HTML5
+
