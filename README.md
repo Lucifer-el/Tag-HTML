@@ -39,6 +39,16 @@
 
 <del> membuat text yang telah dihapus dari dokumen
 
+<dfn> membuat sebuah istilah definisi
 
+<em> untuk membuat penekanan teks !tidak support HTML5
 
+<font> membuat font, warna, dan ukuran untuk teks !tidak support HTML5
 
+<i> membuat sebuah bagian dari teks yang disesuaikan dengan mood
+
+<ins> untuk membuat teks yang telah dimasukkan ke dalam dokumen
+
+<kbd> untuk membuat input keyboard
+
+<mark> untuk membuat teks yang disorot / ditandai
