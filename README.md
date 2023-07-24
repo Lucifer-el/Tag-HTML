@@ -43,12 +43,21 @@
 
 <em> untuk membuat penekanan teks !tidak support HTML5
 
-<font> membuat font, warna, dan ukuran untuk teks !tidak support HTML5
+<font>  membuat font, warna, dan ukuran untuk teks !tidak support HTML5
 
-<i> membuat sebuah bagian dari teks yang disesuaikan dengan mood
+<i>  membuat sebuah bagian dari teks yang disesuaikan dengan mood
 
 <ins> untuk membuat teks yang telah dimasukkan ke dalam dokumen
 
 <kbd> untuk membuat input keyboard
 
 <mark> untuk membuat teks yang disorot / ditandai
+
+<meter> untuk membuat pengukuran skala
+
+<pre> </pre> untuk membuat teks terformat
+
+<progress> </progress> memperlihatkan kemajuan suatu tugas
+
+<q> list </q> untuk membuat kutipan pendek
+
