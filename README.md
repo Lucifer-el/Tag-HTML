@@ -65,143 +65,95 @@
 |`<fieldset>`| 	Grup unsur terkait dalam bentuk|
 |`<legend> </legend>`| untuk membuat sebuah caption untuk sebuah elemen <fieldset>, < figure>, atau <details>|
 |`<datalist>`|	Menentukan daftar pilihan yang telah ditetapkan untuk kontrol input|
-
 |`<keygen>`| untuk membuat key-pair generator kolom input|
-
 |`<output>`| untuk membuat hasil penghitungan|
 
 | FRAMES |
 |--------|
 |`<frame>`|	untuk membuat sebuah window (bingkai) dalam sebuah frameset !tidak support HTML5|
 |`<frameset> </frameset>`| untuk membuat satu set bingkai !tidak support HTML5|
-
 |`<noframes> </noframes>`| untuk membuat sebuah konten alternatif untuk pengguna yang tidak mendukung frame| 
-
 |`<iframe> </iframe>`| untuk membuat sebuah bingkai|
 
 | IMAGES |
 |--------|
-<img> 	untuk membuat gambar
+|`<img>`|	untuk membuat gambar|
+|`<map>`|	untuk membuat gambar-peta|
+|`<area>`| untuk membuat area dalam gambar-peta|
+|`<canvas>`|	Digunakan untuk menggambar grafik, melalui scripting (JavaScript )|
+|`<figcaption> </figcaption>`|	untuk membuat sebuah caption untuk elemen <figure>|
+|`<figure> </figure>`|	Menentukan konten mandiri|
+|`width – height`| Menentukan ukuran gambar|
+|`src`|	Atribut untuk menentukan URL gambar|
+|`alt`|	Mendefinisikan teks pada gambar, jika gambar tidak dapat ditampilkan|
+|`float`|	Properti untuk float image pada CSS|
 
-<map>	untuk membuat gambar-peta
+| AUDIO/VIDEO |
+|-------------|
+|`<audio>`| untuk membuat isi suara|
+|`<source>`| untuk membuat sumber beberapa media untuk elemen media (<video> dan <audio>)|
+|`<track>`|untuk membuat trek teks untuk elemen media (<video> dan <audio>)|
+|`<video> </video>`|	untuk membuat sebuah video atau film|
 
-<area>	untuk membuat area dalam gambar-peta
+| LINKS |
+|-------|
+|`<a>`| untuk membuat hyperlink|
+|`<link>`| untuk membuat hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk link ke style sheet)
+|`<nav> </nav>`|	untuk membuat navigasi link|
 
-<canvas>	Digunakan untuk menggambar grafik, melalui scripting (JavaScript ) 
+| LISTS |
+|-------|
+|`<ul> </ul>`| untuk membuat daftar dengan selain nomor|
+|`<ol> </ol>`| untuk membuat daftar dengan nomor|
+|`<li> </li>`| untuk membuat sebuah item daftar|
+|`<dir> </dir>`| untuk membuat sebuah daftar direktori ! tidak support lagi di HTML5|
+|`<dl> </dl>`| untuk membuat sebuah daftar definisi|
+|`<dt> </dt>`| untuk membuat istilah (item) dalam daftar definisi|
+|`<dd> </dd>`| mendefinisikan sebuah deskripsi suatu item didalam list definisi|
+|`<menu> </menu>`| untuk membuat deskripsi dari item dalam daftar definisi|
+|`<command>`| untuk membuat sebuah tombol perintah bahwa seorang pengguna dapat meminta|
 
-<figcaption> </figcaption>	untuk membuat sebuah caption untuk elemen <figure> 
+| TABLES |
+|--------|
+|`<table> </table>`| untuk membuat tabel|
+|`<caption> </caption>`| untuk membuat sebuah caption tabel|
+|`<th> </th>`| untuk membuat sebuah sel header tabel|
+|`<tr> </tr>`| untuk membuat baris dalam sebuah tabel|
+|`<td> </td>`| untuk membuat sel dalam sebuah tabel|
+|`<thead> </thead>`|	Mengelompokan isi header dalam sebuah tabel|
+|`<tbody> </tbody>`|	Mengelompokan isi tubuh dalam sebuah tabel|
+|`<tfoot> </tfoot>`| Mengelompokan isi footer dalam sebuah tabel|
+|`<col>`|	Menentukan properti kolom untuk setiap kolom dalam elemen <colgroup>|
+|`<colgroup> </colgroup>`| Menentukan kelompok dari satu atau lebih kolom dalam sebuah tabel untuk diformat|
+|`border`| Mengatur garis tabel|
+|`border-collapse`|	Mengatur batas garis tabel|
+|`padding`| Mengatur padding pada cell|
+|`text-align`|	Mengatur perataan pada konten tabel|
+|`border-spacing`| Mengatur jarak spasi garis tabel|
+|`colspan`|	Menggabungkan beberapa kolom. Kalau di office disebutnya Merge Cell|
+|`rowspan`| Menggabungkan beberapa baris|
+|`id`|	Memberikan id pada tabel atau kolom|
 
-<figure> </figure>	Menentukan konten mandiri
+| STYLE/SECTIONS |
+|----------------|
+|`<style> </style>`| untuk membuat informasi style untuk dokumen|
+|`<div>`| untuk membuat sebuah bagian dalam dokumen|
 
-width – height =	Menentukan ukuran gambar
+|`<span> </span>`| untuk membuat sebuah bagian dalam dokumen|
 
-src =	Atribut untuk menentukan URL gambar
+|`<header> </header>`| untuk membuat sebuah header untuk dokumen atau bagian| 
 
-alt =	Mendefinisikan teks pada gambar, jika gambar tidak dapat ditampilkan
+|`<footer> </footer>`| untuk membuat footer untuk dokumen atau bagian|
 
-float =	Properti untuk float image pada CSS
-
----AUDIO/VIDEO
-<audio>	untuk membuat isi suara 
-
-<source> untuk membuat sumber beberapa media untuk elemen media (<video> dan <audio>) 
-
-<track>	untuk membuat trek teks untuk elemen media (<video> dan <audio>) 
-
-<video> </video>	untuk membuat sebuah video atau film 
-
----LINKS
-<a> untuk membuat hyperlink
-
-<link> untuk membuat hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk link ke style sheet)
-
-<nav> </nav>	untuk membuat navigasi link
-
----LISTS
-Lists	 
-<ul> </ul> untuk membuat daftar dengan selain nomor
-
-<ol> </ol> untuk membuat daftar dengan nomor
-
-<li> </li> untuk membuat sebuah item daftar
-
-<dir> </dir> untuk membuat sebuah daftar direktori (tidak disupport lagi di HTML5)
-
-<dl> </dl> untuk membuat sebuah daftar definisi
-
-<dt> </dt> untuk membuat istilah (item) dalam daftar definisi
-
-<dd> </dd> mendefinisikan sebuah deskripsi suatu item didalam list definisi
-
-<menu> </menu> untuk membuat deskripsi dari item dalam daftar definisi
-
-<command> untuk membuat sebuah tombol perintah bahwa seorang pengguna dapat meminta
-
----TABLES
-<table> </table> untuk membuat tabel
-
-<caption> </caption> untuk membuat sebuah caption tabel
-
-<th> </th> untuk membuat sebuah sel header tabel
-
-<tr> </tr> untuk membuat baris dalam sebuah tabel
-
-<td> </td> untuk membuat sel dalam sebuah tabel
-
-<thead> </thead>	Mengelompokan isi header dalam sebuah tabel
-
-<tbody> </tbody>	Mengelompokan isi tubuh dalam sebuah tabel
-
-<tfoot></tfoot> Mengelompokan isi footer dalam sebuah tabel
-
-<col>	Menentukan properti kolom untuk setiap kolom dalam elemen <colgroup>
-
-<colgroup> </colgroup>	Menentukan kelompok dari satu atau lebih kolom dalam sebuah tabel untuk diformat
-
-border	=Mengatur garis tabel
-
-border-collapse =	Mengatur batas garis tabel
-
-padding =	Mengatur padding pada cell
-
-text-align =	Mengatur perataan pada konten tabel
-
-border-spacing =	Mengatur jarak spasi garis tabel
-
-colspan =	Menggabungkan beberapa kolom. Kalau di office disebutnya Merge Cell
-
-rowspan =	Menggabungkan beberapa baris
-
-id =	Memberikan id pada tabel atau kolom
-
----STYLE/SECTIONS
-<style> </style> untuk membuat informasi style untuk dokumen
-
-<div> untuk membuat sebuah bagian dalam dokumen
-
-<span> </span> untuk membuat sebuah bagian dalam dokumen
-
-<header> </header> untuk membuat sebuah header untuk dokumen atau bagian 
-
-<footer> </footer> untuk membuat footer untuk dokumen atau bagian
-
-<hgroup> </hgroup>	Pengelompokan elemen heading (<h1> sampai <h6>) 
-
-<section> </section>	untuk membuat bagian dalam dokumen
-
-<article> </article> untuk membuat sebuah artikel
-
-<aside> </aside> untuk membuat konten lain selain dari konten halaman 
-
-<details> </details>	untuk membuat rincian tambahan yang pengguna dapat lihat atau sembunyikan
-
-<dialog> </dialog> untuk membuat sebuah kotak dialog atau jendela 
-
-<summary> </summary> untuk membuat sebuah judul terlihat untuk elemen <detil> 
-
-style	= Atribut untuk elemen styling pada HTML
-
-background-color	= Memberikan warna latar belakang
+|`<hgroup> </hgroup>`|	Pengelompokan elemen heading (<h1> sampai <h6>) 
+|`<section> </section>`|	untuk membuat bagian dalam dokumen|
+|`<article> </article>`| untuk membuat sebuah artikel|
+|`<aside> </aside>`| untuk membuat konten lain selain dari konten halaman| 
+|`<details> </details>`|	untuk membuat rincian tambahan yang pengguna dapat lihat atau sembunyikan|
+|`<dialog> </dialog>`| untuk membuat sebuah kotak dialog atau jendela|
+|`<summary> </summary>`| untuk membuat sebuah judul terlihat untuk elemen <detil>|
+|`style`| Atribut untuk elemen styling pada HTML|
+|`background-color`| Memberikan warna latar belakang|
 
 color	= Memberi warna pada teks
 
