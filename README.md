@@ -1,6 +1,6 @@
 # Tag-HTML
-| Basic | fungsinya|
-|-------|----------|
+| Basic | FUNGSI |
+|-------|--------|
 |`<!DOCTYPE>`| membuat tipe dokumen|
 |`<html>`| untuk membuat dokumen html ! harus ada opening dan closing|
 |`<title> </title>`| membuat judul di halaman| 
@@ -10,7 +10,7 @@
 |`<hr>`| untuk merubah dasar kata dalam isi|
 |`<!--...-->`| untuk komentar|
 
-| Formatting | fungsi |
+| Formatting | FUNGSI |
 |------------|--------|
 |`<acronym>`| untuk membuat sebuah akronim ! tidak work di HTML5|
 |`<abbr>`| untuk membuat sebuah singkatan|
@@ -51,7 +51,7 @@
 |`<var>`| untuk membuat sebuah variabel|
 |`<wbr>`| untuk membuat kemungkinan garis-putus|
 
-| FORMS | fungsi |
+| FORMS | FUNGSI |
 |-------|--------|
 |`<form>`|untuk membuat sebuah form HTML untuk input pengguna|
 |`<input>`| untuk membuat sebuah kontrol input|
@@ -94,8 +94,8 @@
 |`<track>`|untuk membuat trek teks untuk elemen media (<video> dan <audio>)|
 |`<video> </video>`|	untuk membuat sebuah video atau film|
 
-| LINKS |
-|-------|
+| LINKS | FUNGSI |
+|-------|--------|
 |`<a>`| untuk membuat hyperlink|
 |`<link>`| untuk membuat hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk link ke style sheet)
 |`<nav> </nav>`|	untuk membuat navigasi link|
@@ -140,7 +140,7 @@
 |`<span> </span>`| untuk membuat sebuah bagian dalam dokumen|
 |`<header> </header>`| untuk membuat sebuah header untuk dokumen atau bagian| 
 |`<footer> </footer>`| untuk membuat footer untuk dokumen atau bagian|
-|`<hgroup> </hgroup>`|	Pengelompokan elemen heading (<h1> sampai <h6>) 
+|`<hgroup> </hgroup>`|	Pengelompokan elemen heading <`h1`> sampai <`h6`>| 
 |`<section> </section>`|	untuk membuat bagian dalam dokumen|
 |`<article> </article>`| untuk membuat sebuah artikel|
 |`<aside> </aside>`| untuk membuat konten lain selain dari konten halaman| 
@@ -150,11 +150,8 @@
 |`style`| Atribut untuk elemen styling pada HTML|
 |`background-color`| Memberikan warna latar belakang|
 |`color`| Memberi warna pada teks|
-
 |`font-family`| Mengubah font pada teks|
-
 |`font-size`| Mengatur ukuran font|
-
 |`text-align`| Mengatura perataan teks|
 
 | META INFO | FUNGSI |
@@ -170,5 +167,5 @@
 |`<noscript>`| untuk membuat sebuah konten alternatif bagi pengguna yang tidak mendukung script di sisi klien|
 |`<applet>`| untuk membuat sebuah java applet yang ditanam tidak support di HTML5|
 |`<embed>`| untuk membuat sebuah wadah untuk aplikasi eksternal (non-HTML)|
-|`<object>`|	untuk membuat sebuah objek yang ditanam
+|`<object>`|	untuk membuat sebuah objek yang ditanam|
 |`<param>`| untuk membuat sebuah parameter untuk objek|
