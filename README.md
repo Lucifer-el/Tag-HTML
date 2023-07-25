@@ -10,8 +10,8 @@
 |`<hr>`| untuk merubah dasar kata dalam isi|
 |`<!--...-->`| untuk komentar|
 
-| Formatting |
-|------------|
+| Formatting | fungsi |
+|------------|--------|
 |`<acronym>`| untuk membuat sebuah akronim ! tidak work di HTML5|
 |`<abbr>`| untuk membuat sebuah singkatan|
 |`<address> </address>`| untuk membuat alamat| 
@@ -51,8 +51,8 @@
 |`<var>`| untuk membuat sebuah variabel|
 |`<wbr>`| untuk membuat kemungkinan garis-putus|
 
-| FORMS |
-|-------|
+| FORMS | fungsi |
+|-------|--------|
 |`<form>`|untuk membuat sebuah form HTML untuk input pengguna|
 |`<input>`| untuk membuat sebuah kontrol input|
 |`<textarea>`|untuk membuat sebuah kontrol input multibaris (text area)|
@@ -60,7 +60,6 @@
 |`<select>`| untuk membuat sebuah daftar drop-down|
 |`<optgroup>`| untuk membuat sebuah kelompok pilihan yang terkait dalam daftar drop-down|
 |`<option>`| untuk membuat pilihan dalam daftar drop-down|
-
 |`<label>`| untuk membuat sebuah label untuk sebuah elemen <input>|
 |`<fieldset>`| 	Grup unsur terkait dalam bentuk|
 |`<legend> </legend>`| untuk membuat sebuah caption untuk sebuah elemen <fieldset>, < figure>, atau <details>|
@@ -68,15 +67,15 @@
 |`<keygen>`| untuk membuat key-pair generator kolom input|
 |`<output>`| untuk membuat hasil penghitungan|
 
-| FRAMES |
-|--------|
+| FRAMES | FUNGSI |
+|--------|--------|
 |`<frame>`|	untuk membuat sebuah window (bingkai) dalam sebuah frameset !tidak support HTML5|
 |`<frameset> </frameset>`| untuk membuat satu set bingkai !tidak support HTML5|
 |`<noframes> </noframes>`| untuk membuat sebuah konten alternatif untuk pengguna yang tidak mendukung frame| 
 |`<iframe> </iframe>`| untuk membuat sebuah bingkai|
 
-| IMAGES |
-|--------|
+| IMAGES | FUNGSI |
+|--------|--------|
 |`<img>`|	untuk membuat gambar|
 |`<map>`|	untuk membuat gambar-peta|
 |`<area>`| untuk membuat area dalam gambar-peta|
@@ -88,8 +87,8 @@
 |`alt`|	Mendefinisikan teks pada gambar, jika gambar tidak dapat ditampilkan|
 |`float`|	Properti untuk float image pada CSS|
 
-| AUDIO/VIDEO |
-|-------------|
+| AUDIO/VIDEO | FUNGSI |
+|-------------|--------|
 |`<audio>`| untuk membuat isi suara|
 |`<source>`| untuk membuat sumber beberapa media untuk elemen media (<video> dan <audio>)|
 |`<track>`|untuk membuat trek teks untuk elemen media (<video> dan <audio>)|
@@ -101,8 +100,8 @@
 |`<link>`| untuk membuat hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk link ke style sheet)
 |`<nav> </nav>`|	untuk membuat navigasi link|
 
-| LISTS |
-|-------|
+| LISTS | FUNGSI |
+|-------|--------|
 |`<ul> </ul>`| untuk membuat daftar dengan selain nomor|
 |`<ol> </ol>`| untuk membuat daftar dengan nomor|
 |`<li> </li>`| untuk membuat sebuah item daftar|
@@ -113,8 +112,8 @@
 |`<menu> </menu>`| untuk membuat deskripsi dari item dalam daftar definisi|
 |`<command>`| untuk membuat sebuah tombol perintah bahwa seorang pengguna dapat meminta|
 
-| TABLES |
-|--------|
+| TABLES | FUNGSI |
+|--------|--------|
 |`<table> </table>`| untuk membuat tabel|
 |`<caption> </caption>`| untuk membuat sebuah caption tabel|
 |`<th> </th>`| untuk membuat sebuah sel header tabel|
@@ -134,17 +133,13 @@
 |`rowspan`| Menggabungkan beberapa baris|
 |`id`|	Memberikan id pada tabel atau kolom|
 
-| STYLE/SECTIONS |
-|----------------|
+| STYLE/SECTIONS | FUNGSI |
+|----------------|--------|
 |`<style> </style>`| untuk membuat informasi style untuk dokumen|
 |`<div>`| untuk membuat sebuah bagian dalam dokumen|
-
 |`<span> </span>`| untuk membuat sebuah bagian dalam dokumen|
-
 |`<header> </header>`| untuk membuat sebuah header untuk dokumen atau bagian| 
-
 |`<footer> </footer>`| untuk membuat footer untuk dokumen atau bagian|
-
 |`<hgroup> </hgroup>`|	Pengelompokan elemen heading (<h1> sampai <h6>) 
 |`<section> </section>`|	untuk membuat bagian dalam dokumen|
 |`<article> </article>`| untuk membuat sebuah artikel|
@@ -154,33 +149,26 @@
 |`<summary> </summary>`| untuk membuat sebuah judul terlihat untuk elemen <detil>|
 |`style`| Atribut untuk elemen styling pada HTML|
 |`background-color`| Memberikan warna latar belakang|
+|`color`| Memberi warna pada teks|
 
-color	= Memberi warna pada teks
+|`font-family`| Mengubah font pada teks|
 
-font-family	= Mengubah font pada teks
+|`font-size`| Mengatur ukuran font|
 
-font-size	= Mengatur ukuran font
+|`text-align`| Mengatura perataan teks|
 
-text-align =	 Mengatura perataan teks
+| META INFO | FUNGSI |
+|-----------|--------|
+|`<head> </head>`| untuk membuat informasi tentang dokumen|
+|`<meta>`|  untuk membuat metadata tentang dokumen HTML|
+|`<base>`|	Menentukan URL dasar / target untuk semua URL relatif dalam dokumen|
+|`<basefont> </basefont>`|	Menentukan standar warna, ukuran, dan font untuk semua teks dalam dokumen|
 
-  ---META INFO
-<head> </head> untuk membuat informasi tentang dokumen
-
-<meta>  untuk membuat metadata tentang dokumen HTML
-
-<base>	Menentukan URL dasar / target untuk semua URL relatif dalam dokumen
-
-<basefont> </basefont>	Menentukan standar warna, ukuran, dan font untuk semua teks dalam dokumen
-
----PROGAMMING
-<script> </script> untuk membuat script di sisi klien
-
-<noscript> untuk membuat sebuah konten alternatif bagi pengguna yang tidak mendukung script di sisi klien
-
-<applet> untuk membuat sebuah java applet yang ditanam (tidak disupport lagi di HTML5)
-
-<embed>	 untuk membuat sebuah wadah untuk aplikasi eksternal (non-HTML) (tag baru HTML5)
-
-<object>	untuk membuat sebuah objek yang ditanam
-
-<param> untuk membuat sebuah parameter untuk objek
+| PROGAMMING | FUNGSI |
+|------------|--------|
+|`<script> </script>`| untuk membuat script di sisi klien|
+|`<noscript>`| untuk membuat sebuah konten alternatif bagi pengguna yang tidak mendukung script di sisi klien|
+|`<applet>`| untuk membuat sebuah java applet yang ditanam tidak support di HTML5|
+|`<embed>`| untuk membuat sebuah wadah untuk aplikasi eksternal (non-HTML)|
+|`<object>`|	untuk membuat sebuah objek yang ditanam
+|`<param>`| untuk membuat sebuah parameter untuk objek|
