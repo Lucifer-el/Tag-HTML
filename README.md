@@ -1,22 +1,15 @@
 # Tag-HTML
-|---Basic|
+| Basic | fungsinya|
+|-------|----------|
 |`<!DOCTYPE>`| membuat tipe dokumen|
-
-|`<HTML> </HTML>`| untuk membuat dokumen html ! harus ada opening dan closing|
-
+|`<html>`| untuk membuat dokumen html ! harus ada opening dan closing|
 |`<title> </title>`| membuat judul di halaman| 
-
 |`<body> </body>`| membuat tubuh dari sebuah halaman/code|
-
 |`<h1> </h1>`| untuk membuat header  !nomer untuk size text|
-
 |`<p> </p>`| membuat paragraf|
-
 |`<hr>`| untuk merubah dasar kata dalam isi|
-
 |`<!--...-->`| untuk komentar|
-
-|---Formatting|
+| Formatting |
 |`<acronym>`| untuk membuat sebuah akronim ! tidak work di HTML5|
 
 |`<abbr>`| untuk membuat sebuah singkatan|
