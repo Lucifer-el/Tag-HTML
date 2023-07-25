@@ -9,120 +9,78 @@
 |`<p> </p>`| membuat paragraf|
 |`<hr>`| untuk merubah dasar kata dalam isi|
 |`<!--...-->`| untuk komentar|
+
 | Formatting |
+|------------|
 |`<acronym>`| untuk membuat sebuah akronim ! tidak work di HTML5|
-
 |`<abbr>`| untuk membuat sebuah singkatan|
-
 |`<address> </address>`| untuk membuat alamat| 
-
 |`<b>`| untuk membuat text menjadi tebal/bold|
-
 |`<bdi>`| Mengisolasi bagian dari teks yang dapat diformat dalam arah yang berbeda dari teks lain di luarnya|
-
 |`<bdo>`| mengganti arah text|
-
 |`<big>`| untuk membuat text menjadi besar !tidak support di html5|
-
-|`<BLOCKQUOTE> </BLOCKQUOTE>`| untuk membuat bagian text yang dikutip dari sumber/web lain|
-
+|`<BLOCKQUOTE> </BLOCKQUOTE>`| untuk membuat bagian text yang  dikutip dari sumber/web lain|
 |`<center> </center>`| meengubah text ke arah tengah ! tidak support HTML5
-
 |`<cite>`| untuk membuat judul karya|
-
 |`<code>`| untuk memasukan code diantara text|
-
 |`<del>`| membuat text yang telah dihapus dari dokumen|
-
 |`<dfn>`| membuat sebuah istilah definisi|
-
 |`<em>`| untuk membuat penekanan teks !tidak support HTML5|
-
 |`<font>`|  membuat font, warna, dan ukuran untuk teks !tidak support HTML5|
-
 |`<i>`|  membuat sebuah bagian dari teks yang disesuaikan dengan mood|
-
 |`<ins>`| untuk membuat teks yang telah dimasukkan ke dalam dokumen|
-
 |`<kbd>`| untuk membuat input keyboard|
-
 |`<mark>`| untuk membuat teks yang disorot / ditandai|
-
 |`<meter>`| untuk membuat pengukuran skala|
-
 |`<pre> </pre>`| untuk membuat teks terformat|
-
 |`<progress> </progress>`| memperlihatkan kemajuan suatu tugas|
-
 |`<q> list </q>`| untuk membuat kutipan pendek|
-
 |`<rp>`| untuk membuat apa yang harus ditampilkan di browser yang tidak mendukung penjelasan ruby|
-
 |`<rt>`| untuk membuat sebuah anotasi / pengucapan karakter ! untuk tipografi asia timur|
-
 |`<ruby>`| untuk membuat sebuah anotasi ruby ! untuk tipografi asia timur|
-
 |`<s>`|	untuk membuat teks yang tidak lagi benar|
-
 |`<samp>`| untuk membuat contoh keluaran dari program komputer|
-
 |`<small>`| untuk membuat teks kecil|
-
 |`<strike>`| untuk membuat teks yang di coret tengah|
-
 |`<strong>`| untuk membuat teks penting|
-
 |`<sub>`| untuk membuat teks subskrip !seperti dalam penulisan zat kimia|
+|`<sup>`| untuk membuat teks superscripted ! seperti penulisan dalam akar kuadrat|
+|`<time>`| untuk membuat tanggal / waktu|
+|`<tt>`| untuk membuat teks teletype !tidak support di HTML5|
+|`<u>`| untuk membuat teks yang memiliki Gaya yang berbeda dari teks biasa lainnya|
+|`<var>`| untuk membuat sebuah variabel|
+|`<wbr>`| untuk membuat kemungkinan garis-putus|
 
-<sup> untuk membuat teks superscripted ! seperti penulisan dalam akar kuadrat 
+| FORMS |
+|-------|
+|`<form>`|untuk membuat sebuah form HTML untuk input pengguna|
+|`<input>`| untuk membuat sebuah kontrol input|
+|`<textarea>`|untuk membuat sebuah kontrol input multibaris (text area)|
+|`<button>`| untuk membuat sebuah tombol yang dapat diklik|
+|`<select>`| untuk membuat sebuah daftar drop-down|
+|`<optgroup>`| untuk membuat sebuah kelompok pilihan yang terkait dalam daftar drop-down|
+|`<option>`| untuk membuat pilihan dalam daftar drop-down|
 
-<time> untuk membuat tanggal / waktu
+|`<label>`| untuk membuat sebuah label untuk sebuah elemen <input>|
+|`<fieldset>`| 	Grup unsur terkait dalam bentuk|
+|`<legend> </legend>`| untuk membuat sebuah caption untuk sebuah elemen <fieldset>, < figure>, atau <details>|
+|`<datalist>`|	Menentukan daftar pilihan yang telah ditetapkan untuk kontrol input|
 
-<tt> untuk membuat teks teletype !tidak support di HTML5
+|`<keygen>`| untuk membuat key-pair generator kolom input|
 
-<u> untuk membuat teks yang memiliki Gaya yang berbeda dari teks biasa lainnya
+|`<output>`| untuk membuat hasil penghitungan|
 
-<var> untuk membuat sebuah variabel
+| FRAMES |
+|--------|
+|`<frame>`|	untuk membuat sebuah window (bingkai) dalam sebuah frameset !tidak support HTML5|
+|`<frameset> </frameset>`| untuk membuat satu set bingkai !tidak support HTML5|
 
-<wbr> untuk membuat kemungkinan garis-putus
+|`<noframes> </noframes>`| untuk membuat sebuah konten alternatif untuk pengguna yang tidak mendukung frame| 
 
----Forms
-<form> </form> untuk membuat sebuah form HTML untuk input pengguna
+|`<iframe> </iframe>`| untuk membuat sebuah bingkai|
 
-<input> untuk membuat sebuah kontrol input
-
-'<textarea>' untuk membuat sebuah kontrol input multibaris (text area)
-
-<button> untuk membuat sebuah tombol yang dapat diklik
-
-<select> untuk membuat sebuah daftar drop-down
-
-<optgroup> untuk membuat sebuah kelompok pilihan yang terkait dalam daftar drop-down
-
-<option> untuk membuat pilihan dalam daftar drop-down
-
-<label> untuk membuat sebuah label untuk sebuah elemen <input>
-
-<fieldset> 	Grup unsur terkait dalam bentuk
-
-<legend> </legend> untuk membuat sebuah caption untuk sebuah elemen <fieldset>, < figure>, atau <details>
-
-<datalist>	Menentukan daftar pilihan yang telah ditetapkan untuk kontrol input
-
-<keygen> untuk membuat key-pair generator kolom input
-
-<output> untuk membuat hasil penghitungan
-
----FRAMES
-<frame>	untuk membuat sebuah window (bingkai) dalam sebuah frameset !tidak support HTML5
-
-<frameset> </frameset> untuk membuat satu set bingkai !tidak support HTML5
-
-<noframes> </noframes> untuk membuat sebuah konten alternatif untuk pengguna yang tidak mendukung frame 
-
-<iframe> </iframe> untuk membuat sebuah bingkai
-
----IMAGES
+| IMAGES |
+|--------|
 <img> 	untuk membuat gambar
 
 <map>	untuk membuat gambar-peta
